@@ -1,2 +1,3 @@
-# learn-enough-rails
-Read the book
+- https://aws.amazon.com/cloud9
+- https://eu-south-1.console.aws.amazon.com/cloud9/home/product?ad=c&cp=bn&p=c9&region=eu-south-1#
+- https://eu-south-1.console.aws.amazon.com/cloud9/ide/cf7e24b3df894167a884d128c4695a65
