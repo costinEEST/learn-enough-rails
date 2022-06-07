@@ -25,3 +25,7 @@ gem install rails -v 7.0.3
 ```bash
 gem install bundler -v 2.3.15
 ```
+
+```bash
+source <(curl -sL https://cdn.learnenough.com/resize)
+```
