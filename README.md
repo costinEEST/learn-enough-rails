@@ -29,3 +29,7 @@ gem install bundler -v 2.3.15
 ```bash
 source <(curl -sL https://cdn.learnenough.com/resize)
 ```
+
+```bash
+rails _7.0.3_ new hello_app --skip-bundle
+```
