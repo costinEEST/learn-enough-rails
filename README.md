@@ -13,3 +13,7 @@ rvm install 3.1.2
 ```bash
 rvm --default use 3.1.2
 ```
+
+```bash
+echo "gem: --no-document" >> .gemrc
+```
