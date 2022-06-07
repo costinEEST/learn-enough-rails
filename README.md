@@ -17,3 +17,7 @@ rvm --default use 3.1.2
 ```bash
 echo "gem: --no-document" >> .gemrc
 ```
+
+```bash
+gem install rails -v 7.0.3
+```
