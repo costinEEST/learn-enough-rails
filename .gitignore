@@ -66,4 +66,5 @@ yarn-debug.log*
 /storage/*
 !/storage/.keep
 
-hello_app
+hello_app/*
+!hello_app/Gemfile

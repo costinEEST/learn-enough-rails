@@ -33,3 +33,9 @@ source <(curl -sL https://cdn.learnenough.com/resize)
 ```bash
 rails _7.0.3_ new hello_app --skip-bundle
 ```
+
+- when creating a new Rails application it is already a Git project
+
+```bash
+rm -r hello_app/.git
+```
