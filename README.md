@@ -39,3 +39,17 @@ rails _7.0.3_ new hello_app --skip-bundle
 ```bash
 rm -r hello_app/.git
 ```
+
+- This would install the latest version of the `capybara` gem (which is used in testing) as long as it’s greater than or equal to version `3.26`—even if it’s, say, version `7.2`.
+
+```bash
+gem "capybara", ">= 3.26"
+```
+
+- This installs the gem `sqlite3` as long as it’s version `1.4` or newer (a “minor update”) but not `2` or newer (a “major update”). In other words, the `>=` notation always installs the latest gem as long as it meets the minimum version requirement, whereas the `~> 1.4` notation will install `1.5` (if available) but not `2.0`.
+
+```bash
+gem "sqlite3", "~> 1.4"
+```
+
+- https://github.com/learnenough/rails_tutorial_7th_edition_gemfiles
