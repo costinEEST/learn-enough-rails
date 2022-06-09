@@ -134,3 +134,59 @@ bundle _2.3.14_ install
 ```bash
 bundle _2.3.14_ lock --add-platform x86_64-linux
 ```
+
+- See if your system already has the Heroku command-line client installed:
+
+```bash
+heroku --version
+```
+
+- Install Heroku on the cloud IDE:
+
+```bash
+source <(curl -sL https://cdn.learnenough.com/heroku_install)
+```
+
+- https://devcenter.heroku.com/articles/heroku-cli#install-the-heroku-cli
+
+- On a native system:
+
+```bash
+heroku login
+```
+
+- On the cloud IDE:
+
+```bash
+heroku login --interactive
+
+Email: <your email>
+Password: <your API Key, NOT your Heroku password>
+```
+
+- Create and configure a new application at Heroku:
+
+```bash
+heroku create
+```
+
+- Push the main branch up to Heroku:
+
+```bash
+git push heroku main
+```
+
+- If something goes wrong, inspect the logs:
+
+```bash
+heroku logs
+```
+
+- Get info about the Heroku app, including the Web URL:
+
+```bash
+heroku apps:info
+```
+
+- https://young-badlands-92881.herokuapp.com
+- https://www.learnenough.com/custom-domains
