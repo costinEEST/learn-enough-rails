@@ -63,3 +63,15 @@ bin/rails server
 ```
 
 - To view the result of `rails server` on a native OS, paste the URL http://localhost:3000 into the address bar of your browser. On the cloud IDE, go to `Preview` and click on `Preview Running Application` and then open it in a full browser window or tab (https://cf7e24b3df894167a884d128c4695a65.vfs.cloud9.eu-south-1.amazonaws.com).
+
+- Look for all controllers available
+
+```bash
+ls app/controllers/*_controller.rb
+```
+
+- Example of how to define the route root
+
+```ruby
+root "controller_name#action_name"
+```
