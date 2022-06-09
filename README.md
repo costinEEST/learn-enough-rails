@@ -114,3 +114,23 @@ git config --global alias.co checkout
 ```bash
 git config --global credential.helper "cache --timeout=86400"
 ```
+
+- Prevent the local installation of any production gems (which in this case consists of the `pg` gem):
+
+```bash
+bundle config
+```
+
+- Bundling without production gems:
+
+```bash
+bundle _2.3.14_ config set --local without 'production'
+```
+
+```bash
+bundle _2.3.14_ install
+```
+
+```bash
+bundle _2.3.14_ lock --add-platform x86_64-linux
+```
