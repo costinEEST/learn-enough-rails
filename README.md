@@ -75,3 +75,7 @@ ls app/controllers/*_controller.rb
 ```ruby
 root "controller_name#action_name"
 ```
+
+```bash
+source <(curl -sL https://cdn.learnenough.com/upgrade_git)
+```
