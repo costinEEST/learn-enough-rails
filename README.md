@@ -53,3 +53,7 @@ gem "sqlite3", "~> 1.4"
 ```
 
 - https://github.com/learnenough/rails_tutorial_7th_edition_gemfiles
+
+```bash
+cd hello_app/ && bundle install
+```
