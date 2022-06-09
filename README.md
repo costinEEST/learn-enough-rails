@@ -34,7 +34,7 @@ source <(curl -sL https://cdn.learnenough.com/resize)
 rails _7.0.3_ new hello_app --skip-bundle
 ```
 
-- When creating a new Rails application it is already a Git project
+- As of `Rails 6` and continuing in `Rails 7`, running `rails new` automatically initializes a Git repository:
 
 ```bash
 rm -r hello_app/.git
@@ -70,12 +70,47 @@ bin/rails server
 ls app/controllers/*_controller.rb
 ```
 
-- Example of how to define the route root
+- Example of how to define the route root:
 
 ```ruby
 root "controller_name#action_name"
 ```
 
+- Update Git on Cloud9:
+
 ```bash
 source <(curl -sL https://cdn.learnenough.com/upgrade_git)
+```
+
+```bash
+git config --global --list
+
+credential.helper=!aws codecommit credential-helper $@
+credential.usehttppath=true
+core.editor=nano
+```
+
+- Configure the name and email fields for Git:
+
+```bash
+$ git config --global user.name "Your Name"
+$ git config --global user.email your.email@example.com
+```
+
+- Define the default branch's name:
+
+```bash
+git config --global init.defaultBranch main
+```
+
+- Set up `git co` as a checkout alias:
+
+```bash
+git config --global alias.co checkout
+```
+
+- Configure Git to remember passwords for a set length of time:
+
+```bash
+git config --global credential.helper "cache --timeout=86400"
 ```
