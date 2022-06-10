@@ -190,3 +190,17 @@ heroku apps:info
 
 - https://young-badlands-92881.herokuapp.com
 - https://www.learnenough.com/custom-domains
+
+- Generate a random subdomain with Ruby:
+
+```ruby
+('a'..'z').to_a.shuffle[0..7].join
+```
+
+- Rename the application
+
+```bash
+heroku rename learn-enough-rails_hello-app
+```
+
+- https://learn-enough-rails-hello-app.herokuapp.com
