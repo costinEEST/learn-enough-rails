@@ -205,3 +205,7 @@ heroku rename learn-enough-rails_hello-app
 
 - https://learn-enough-rails-hello-app.herokuapp.com
 - [David Heinemeier Hansson using scaffolding in Rails](https://youtu.be/Gzj723LkRJY)
+
+```bash
+rails new toy_app --skip-bundle
+```
