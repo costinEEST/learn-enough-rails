@@ -239,3 +239,9 @@ heroku create
 ```bash
 git push && git push heroku main
 ```
+
+```bash
+heroku rename learn-enough-rails-toy-app
+```
+
+- https://learn-enough-rails-toy-app.herokuapp.com + https://dashboard.heroku.com/apps/learn-enough-rails-toy-app
