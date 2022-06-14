@@ -223,3 +223,19 @@ bundle install
 ```
 
 - https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig + https://stackoverflow.com/a/54696441/1904223 + https://youtu.be/_fcQDS1iTPw
+
+```bash
+toy_app/bin/rails s
+```
+
+```bash
+git commit -am "Add hello"
+```
+
+```bash
+heroku create
+```
+
+```bash
+git push && git push heroku main
+```
