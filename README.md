@@ -209,3 +209,11 @@ heroku rename learn-enough-rails_hello-app
 ```bash
 rails new toy_app --skip-bundle
 ```
+
+```bash
+bundle config set --local without 'production'
+```
+
+```bash
+bundle install
+```
