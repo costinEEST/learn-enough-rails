@@ -249,3 +249,7 @@ heroku rename learn-enough-rails-toy-app
 ```bash
 rails generate scaffold User name:string email:string
 ```
+
+```bash
+rails db:migrate
+```
