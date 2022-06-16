@@ -274,3 +274,13 @@ rails db:migrate
 | GET                 | `/users/1/edit` | edit   | page to edit user with id 1 |
 | PATCH               | `/users/1`      | update | update user with id 1       |
 | DELETE              | `/users/1`      | delete | delete user with id 1       |
+
+- In Heroku if the DB query fails (`@users = User.all`), it will render a 500 error page.
+
+```bash
+rails generate scaffold Micropost content:text user_id:integer
+```
+
+```bash
+rails db:migrate
+```
