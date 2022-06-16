@@ -302,7 +302,10 @@ User.create!(name: 'Cos', email: 'mail@costi.com')
 ```ruby
 micropost = User.first.microposts.first
 ```
+- The inheritance hierarchy for the User and Micropost models:
 
-```ruby
-exit
-```
+![The inheritance hierarchy for the User and Micropost models](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_7th_edition/images/figures/demo_model_inheritance_4th_ed.png "The inheritance hierarchy for the User and Micropost models")
+
+- The inheritance hierarchy for the Users and Microposts controllers:
+
+![The inheritance hierarchy for the Users and Microposts controllers](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_7th_edition/images/figures/demo_controller_inheritance.png "The inheritance hierarchy for the Users and Microposts controllers")
