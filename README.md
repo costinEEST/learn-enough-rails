@@ -286,3 +286,23 @@ rails db:migrate
 ```
 
 - Try to insert a text longer than 140 characters into the `Content` textarea at `http://127.0.0.1:3000/microposts/new` then submit the form.
+
+```bash
+cd toy_app && rails console
+```
+
+```ruby
+User.first
+```
+
+```ruby
+User.create!(name: 'Cos', email: 'mail@costi.com')
+```
+
+```ruby
+micropost = User.first.microposts.first
+```
+
+```ruby
+exit
+```
