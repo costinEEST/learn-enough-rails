@@ -311,3 +311,25 @@ micropost = User.first.microposts.first
 - The inheritance hierarchy for the Users and Microposts controllers:
 
 ![The inheritance hierarchy for the Users and Microposts controllers](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_7th_edition/images/figures/demo_controller_inheritance.png "The inheritance hierarchy for the Users and Microposts controllers")
+
+```ruby
+rails new sample_app --skip-bundle
+```
+
+```ruby
+rm -rf sample_app/.git
+```
+- [Download from Github using curl](https://gist.github.com/jwebcat/5122366?permalink_comment_id=3404474#gistcomment-3404474)
+
+```bash
+curl --location --remote-header-name https://raw.githubusercontent.com/learnenough/rails_tutorial_7th_edition_gemfiles/master/sample_app/Gemfile_initial --output sample_app/Gemfile
+```
+- Skip the `pg` gem for PostgreSQL in development and use SQLite for development and testing:
+
+```bash
+bundle config set --local without 'production'
+```
+
+```bash
+bundle install
+```
