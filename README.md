@@ -284,3 +284,5 @@ rails generate scaffold Micropost content:text user_id:integer
 ```bash
 rails db:migrate
 ```
+
+- Try to insert a text longer than 140 characters into the `Content` textarea at `http://127.0.0.1:3000/microposts/new` then submit the form.
