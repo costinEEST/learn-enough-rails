@@ -287,6 +287,18 @@ rails generate scaffold Micropost content:text user_id:integer
 rails db:migrate
 ```
 
+- Undo a single migration step:
+
+```bash
+rails db:rollback
+```
+
+- Go all the way back to the beginning:
+
+```bash
+rails db:migrate VERSION=0
+```
+
 - Try to insert a text longer than 140 characters into the `Content` textarea at `http://127.0.0.1:3000/microposts/new` then submit the form.
 
 ```bash
@@ -341,6 +353,12 @@ bundle install
 rails generate controller StaticPages home help
 ```
 
+- Undo the created controller:
+
+```bash
+rails destroy controller StaticPages home help
+```
+
 - Rails shortcuts:
 
 | Full command     | Shortcut  |
@@ -350,3 +368,6 @@ rails generate controller StaticPages home help
 | `rails generate` | `rails g` |
 | `rails test`     | `rails t` |
 | `bundle install` | `bundle`  |
+
+- http://127.0.0.1:3000/static_pages/home
+- http://127.0.0.1:3000/static_pages/help
