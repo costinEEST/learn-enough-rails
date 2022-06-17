@@ -333,3 +333,5 @@ bundle config set --local without 'production'
 ```bash
 bundle install
 ```
+
+- https://github.com/learnenough/rails_tutorial_sample_app_7th_ed/blob/main/README.md
