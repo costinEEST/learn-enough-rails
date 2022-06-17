@@ -335,3 +335,18 @@ bundle install
 ```
 
 - https://github.com/learnenough/rails_tutorial_sample_app_7th_ed/blob/main/README.md
+- [Easily include static pages in your Rails app](https://github.com/thoughtbot/high_voltage)
+
+```bash
+rails generate controller StaticPages home help
+```
+
+- Rails shortcuts:
+
+| Full command     | Shortcut  |
+| ---------------- | --------- |
+| `rails server`   | `rails s` |
+| `rails console`  | `rails c` |
+| `rails generate` | `rails g` |
+| `rails test`     | `rails t` |
+| `bundle install` | `bundle`  |
