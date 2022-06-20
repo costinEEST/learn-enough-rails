@@ -372,3 +372,9 @@ rails destroy controller StaticPages home help
 - http://127.0.0.1:3000/static_pages/home
 - http://127.0.0.1:3000/static_pages/help
 - https://dhh.dk/2014/tdd-is-dead-long-live-testing.html
+
+```bash
+mv app/views/layouts/application.html.erb layout_file
+```
+
+- https://stackoverflow.com/questions/27814500/ruby-on-rails-provide-vs-content-for
