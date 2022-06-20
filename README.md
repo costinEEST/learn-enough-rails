@@ -382,3 +382,11 @@ mv app/views/layouts/application.html.erb layout_file
 ```bash
 mv layout_file app/views/layouts/application.html.erb
 ```
+
+- https://github.com/kern/minitest-reporters
+- https://github.com/guard/guard
+- https://www.railstutorial.org/guardfile
+
+```bash
+bundle exec guard init
+```
