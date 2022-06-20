@@ -390,3 +390,11 @@ mv layout_file app/views/layouts/application.html.erb
 ```bash
 bundle exec guard init
 ```
+
+```bash
+curl --location --remote-header-name https://raw.githubusercontent.com/learnenough/rails_tutorial_sample_app_7th_ed/main/Guardfile --output Guardfile
+```
+
+```bash
+bundle exec guard
+```
