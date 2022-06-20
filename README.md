@@ -378,3 +378,7 @@ mv app/views/layouts/application.html.erb layout_file
 ```
 
 - https://stackoverflow.com/questions/27814500/ruby-on-rails-provide-vs-content-for
+
+```bash
+mv layout_file app/views/layouts/application.html.erb
+```
