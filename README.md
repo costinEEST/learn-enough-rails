@@ -403,3 +403,20 @@ bundle exec guard
 - https://en.wikipedia.org/wiki/Media_type
 - https://en.wikipedia.org/wiki/Abstraction_layer
 - [stylesheet_link_tag(*sources)](https://api.rubyonrails.org/classes/ActionView/Helpers/AssetTagHelper.html#method-i-stylesheet_link_tag)
+- https://www.learnenough.com/text-editor
+
+```bash
+nano ~/.irbrc
+```
+
+```bash
+cat ~/.irbrc
+
+IRB.conf[:PROMPT_MODE] = :SIMPLE
+IRB.conf[:AUTO_INDENT_MODE] = false
+```
+
+
+```bash
+rails console
+```
