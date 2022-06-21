@@ -398,3 +398,8 @@ curl --location --remote-header-name https://raw.githubusercontent.com/learnenou
 ```bash
 bundle exec guard
 ```
+
+- https://www.learnenough.com/ruby
+- https://en.wikipedia.org/wiki/Media_type
+- https://en.wikipedia.org/wiki/Abstraction_layer
+- [stylesheet_link_tag(*sources)](https://api.rubyonrails.org/classes/ActionView/Helpers/AssetTagHelper.html#method-i-stylesheet_link_tag)
