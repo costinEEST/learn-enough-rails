@@ -434,4 +434,7 @@ curl -OL https://cdn.learnenough.com/kitten.jpg
 ```bash
 touch app/assets/stylesheets/custom.scss
 ```
+- https://github.com/rails/sprockets/blob/main/guides/how_sprockets_works.md
+- Inside of `sample_app\app\assets\stylesheets\application.css` the line `*= require_tree .` ensures that all CSS files in the `app/assets/stylesheets` directory (including the tree subdirectories) are included into the `application.css`. The line `*= require_self` specifies where in the loading sequence the CSS in `application.css` itself gets included.
+
 
