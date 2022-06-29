@@ -352,6 +352,9 @@ bundle install
 ```bash
 rails generate controller StaticPages home help
 ```
+- The inheritance hierarchy for the Static Pages:
+
+![The inheritance hierarchy for the Static Pages.](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_7th_edition/images/figures/static_pages_controller_inheritance.png "The inheritance hierarchy for the Static Pages.")
 
 - Undo the created controller:
 
