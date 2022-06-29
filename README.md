@@ -419,7 +419,15 @@ IRB.conf[:PROMPT_MODE] = :SIMPLE
 IRB.conf[:AUTO_INDENT_MODE] = false
 ```
 
-
 ```bash
 rails console
 ```
+
+```bash
+curl -o app/assets/images/rails.svg -L https://cdn.learnenough.com/rails.svg
+```
+
+```bash
+curl -OL https://cdn.learnenough.com/kitten.jpg
+```
+
