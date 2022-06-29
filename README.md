@@ -431,3 +431,7 @@ curl -o app/assets/images/rails.svg -L https://cdn.learnenough.com/rails.svg
 curl -OL https://cdn.learnenough.com/kitten.jpg
 ```
 
+```bash
+touch app/assets/stylesheets/custom.scss
+```
+
