@@ -437,4 +437,13 @@ touch app/assets/stylesheets/custom.scss
 - https://github.com/rails/sprockets/blob/main/guides/how_sprockets_works.md
 - Inside of `sample_app\app\assets\stylesheets\application.css` the line `*= require_tree .` ensures that all CSS files in the `app/assets/stylesheets` directory (including the tree subdirectories) are included into the `application.css`. The line `*= require_self` specifies where in the loading sequence the CSS in `application.css` itself gets included.
 
+- Route and URL mapping for site links:
 
+| Page    | URL      | Named route  |
+| ------- | -------- | ------------ |
+| Home    | /        | root_path    |
+| About   | /about   | about_path   |
+| Help    | /help    | help_path    |
+| Contact | /contact | contact_path |
+| Sign up | /signup  | signup_path  |
+| Log in  | /login   | login_path   |
