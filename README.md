@@ -447,3 +447,8 @@ touch app/assets/stylesheets/custom.scss
 | Contact | /contact | contact_path |
 | Sign up | /signup  | signup_path  |
 | Log in  | /login   | login_path   |
+
+
+```bash
+rails generate integration_test site_layout
+```
