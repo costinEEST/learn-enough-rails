@@ -448,7 +448,14 @@ touch app/assets/stylesheets/custom.scss
 | Sign up | /signup  | signup_path  |
 | Log in  | /login   | login_path   |
 
+-  Generate a template test, called 'site_layout':
 
 ```bash
 rails generate integration_test site_layout
+```
+
+- https://www.rubydoc.info/gems/capybara/Capybara%2FNode%2FMatchers:assert_selector
+
+```bash
+rails test:integration
 ```
