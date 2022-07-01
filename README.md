@@ -459,3 +459,7 @@ rails generate integration_test site_layout
 ```bash
 rails test:integration
 ```
+
+```bash
+rails generate controller Users new
+```
