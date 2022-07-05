@@ -463,3 +463,9 @@ rails test:integration
 ```bash
 rails generate controller Users new
 ```
+
+- https://github.com/heartcombo/devise#starting-with-rails
+
+```bash
+rails generate model User name:string email:string
+```
