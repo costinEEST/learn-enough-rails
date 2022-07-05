@@ -469,3 +469,9 @@ rails generate controller Users new
 ```bash
 rails generate model User name:string email:string
 ```
+
+```bash
+rails db:migrate
+```
+
+- [DB Browser for SQLite](https://sqlitebrowser.org)
