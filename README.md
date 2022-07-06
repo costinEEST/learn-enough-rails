@@ -554,3 +554,11 @@ user.errors.full_messages
 ```
 
 - [Rubular: a Ruby regular expression editor](https://rubular.com)
+
+```bash
+rails generate migration add_index_to_users_email
+```
+
+```bash
+rails db:migrate
+```
