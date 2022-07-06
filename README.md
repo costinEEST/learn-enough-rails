@@ -475,3 +475,82 @@ rails db:migrate
 ```
 
 - [DB Browser for SQLite](https://sqlitebrowser.org)
+
+- Explore the data models is the Rails console:
+
+```bash
+rails console --sandbox
+```
+
+```ruby
+user = User.new
+```
+
+```ruby
+user.valid?
+```
+
+-  Save the User object to the database:
+
+```ruby
+user.save
+```
+
+- Find User by id:
+
+```ruby
+User.find(1)
+```
+
+- Active Record allows to find users by specific attributes:
+
+```ruby
+User.find_by(email: 'michael@example.com')
+```
+
+```ruby
+User.first
+```
+
+```ruby
+User.first
+```
+
+```ruby
+user.email = "mhartl@example.net"
+```
+
+```ruby
+user.email = "mhartl@example.net"
+```
+
+```ruby
+user.save
+```
+
+```ruby
+user.reload.email
+```
+
+
+```ruby
+user.update(name: "The Dude", email: "dude@abides.org")
+```
+
+```bash
+rails test:models
+```
+
+```bash
+rails console --sandbox
+```
+
+```ruby
+user = User.new(name: "", email: "michael@example.com")
+
+user.valid?
+
+user.errors.full_messages
+```
+
+- [Rubular: a Ruby regular expression editor](https://rubular.com)
