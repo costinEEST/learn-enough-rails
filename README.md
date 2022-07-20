@@ -569,3 +569,10 @@ rails db:migrate
 ```bash
 rails generate migration add_password_digest_to_users password_digest:string
 ```
+
+- https://en.wikipedia.org/wiki/Bcrypt
+- https://github.com/bcrypt-ruby/bcrypt-ruby
+
+```bash
+bundle install
+```
