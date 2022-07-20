@@ -562,3 +562,10 @@ rails generate migration add_index_to_users_email
 ```bash
 rails db:migrate
 ```
+
+- https://en.wikipedia.org/wiki/Hash_function
+- https://en.wikipedia.org/wiki/Cryptographic_hash_function
+
+```bash
+rails generate migration add_password_digest_to_users password_digest:string
+```
