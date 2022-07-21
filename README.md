@@ -576,3 +576,29 @@ rails generate migration add_password_digest_to_users password_digest:string
 ```bash
 bundle install
 ```
+
+- Creating and authenticating a user:
+
+```bash
+rails console
+```
+
+```ruby
+User.create(name: "Cos tin", email: "costin@ymail.com", password: "testingPwd", password_confirmation: "testingPwd")
+```
+
+```ruby
+User.find_by(email: 'costin@ymail.com').password_digest
+```
+
+```ruby
+User.find_by(email: 'costin@ymail.com').authenticate('wrongPwd')
+```
+
+```ruby
+User.find_by(email: 'costin@ymail.com').authenticate('testingPwd')
+```
+
+```ruby
+!!User.find_by(email: 'costin@ymail.com').authenticate('testingPwd')
+```
