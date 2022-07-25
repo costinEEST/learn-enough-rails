@@ -631,3 +631,13 @@ User.count
 ```ruby
 User.first
 ```
+
+- [rdbg](https://blog.kiprosh.com/advanced-features-provided-by-new-debug-gem) + http://atdot.net/~ko1/activities/2021_rubyconf.pdf + https://edgeguides.rubyonrails.org/debugging_rails_applications.html#entering-a-debugging-session
+
+```ruby
+(rdbg) @user.name
+"Cos tin"
+(rdbg) @user.email
+"costin@ymail.com"
+(rdbg)
+```
