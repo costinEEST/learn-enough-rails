@@ -621,3 +621,13 @@ or
 ```ruby
 y User.find_by(email: 'costin@ymail.com').attributes
 ```
+
+- A `Users` resource:
+
+```ruby
+User.count
+```
+
+```ruby
+User.first
+```
