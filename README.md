@@ -602,3 +602,22 @@ User.find_by(email: 'costin@ymail.com').authenticate('testingPwd')
 ```ruby
 !!User.find_by(email: 'costin@ymail.com').authenticate('testingPwd')
 ```
+
+- Rails comes equipped with three environments: `test`, `development`, and `production`. The default environment for the Rails console is `development`.
+
+- To run a console in a different environment (to debug a test, for example), you can pass the environment as an option to the console `script`:
+
+```bash
+rails console --environment test
+```
+
+- If you have deployed your sample app to Heroku, you can see its environment using `heroku run rails console`.
+
+```ruby
+puts User.find_by(email: 'costin@ymail.com').attributes.to_yaml
+```
+or
+
+```ruby
+y User.find_by(email: 'costin@ymail.com').attributes
+```
