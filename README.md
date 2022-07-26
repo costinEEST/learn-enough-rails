@@ -641,3 +641,21 @@ User.first
 "costin@ymail.com"
 (rdbg)
 ```
+
+- [Gravatar URLs are based on an MD5 hash of the user's email address](http://en.gravatar.com/site/implement/hash)
+- https://rubyapi.org/3.1/o/digest/md5
+- https://rubyapi.org/3.1/o/string#method-i-downcase
+- https://rubyapi.org/3.1/o/string#method-i-strip
+- https://api.rubyonrails.org/classes/String.html#method-i-squish
+
+```bash
+rails console
+```
+
+```ruby
+user = User.first
+
+user.update(name: 'Constantin', email: "constantin@gmail.com", password: "parolaDemo", password_confirmation: 'parolaDemo')
+```
+
+- https://thoughtbot.com/upcase/videos/ruby-keyword-arguments
