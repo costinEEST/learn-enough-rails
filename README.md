@@ -671,3 +671,15 @@ user.update(name: 'Constantin', email: "constantin@gmail.com", password: "parola
 - https://api.rubyonrails.org/classes/ActionController/Parameters.html#method-i-require
 - https://api.rubyonrails.org/classes/ActionController/Parameters.html#method-i-permit
 - http://127.0.0.1:3000/signup?admin=1
+
+```ruby
+user = User.new(name: "The coder", email: "mail@void", password: "ruby", password_confirmation: "ruby")
+
+user.save
+
+user.errors.full_messages
+```
+
+- https://api.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html#method-i-any-3F
+- https://api.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html#method-i-empty-3F
+- https://api.rubyonrails.org/classes/ActionView/Helpers/TextHelper.html#method-i-pluralize
