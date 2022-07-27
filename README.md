@@ -659,3 +659,9 @@ user.update(name: 'Constantin', email: "constantin@gmail.com", password: "parola
 ```
 
 - https://thoughtbot.com/upcase/videos/ruby-keyword-arguments
+- https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_with
+- Soft-deprecated:
+  - https://guides.rubyonrails.org/form_helpers.html#using-form-tag-and-form-for
+  - https://github.com/rails/rails/issues/25197
+  - https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for
+  - https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag
