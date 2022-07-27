@@ -665,3 +665,9 @@ user.update(name: 'Constantin', email: "constantin@gmail.com", password: "parola
   - https://github.com/rails/rails/issues/25197
   - https://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for
   - https://api.rubyonrails.org/classes/ActionView/Helpers/FormTagHelper.html#method-i-form_tag
+- https://stackoverflow.com/questions/941594/understanding-the-rails-authenticity-token
+- http://www.railsstatuscodes.com/unprocessable_entity.html
+- https://guides.rubyonrails.org/layouts_and_rendering.html#the-status-option
+- https://api.rubyonrails.org/classes/ActionController/Parameters.html#method-i-require
+- https://api.rubyonrails.org/classes/ActionController/Parameters.html#method-i-permit
+- http://127.0.0.1:3000/signup?admin=1
