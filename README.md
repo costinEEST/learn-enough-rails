@@ -687,3 +687,5 @@ user.errors.full_messages
 ```bash
 rails generate integration_test users_signup
 ```
+
+- https://api.rubyonrails.org/classes/ActionController/Redirecting.html#method-i-redirect_to
