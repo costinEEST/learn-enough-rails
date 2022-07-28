@@ -683,3 +683,7 @@ user.errors.full_messages
 - https://api.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html#method-i-any-3F
 - https://api.rubyonrails.org/classes/ActiveRecord/Associations/CollectionProxy.html#method-i-empty-3F
 - https://api.rubyonrails.org/classes/ActionView/Helpers/TextHelper.html#method-i-pluralize
+
+```bash
+rails generate integration_test users_signup
+```
