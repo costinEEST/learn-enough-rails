@@ -690,3 +690,12 @@ rails generate integration_test users_signup
 
 - https://api.rubyonrails.org/classes/ActionController/Redirecting.html#method-i-redirect_to
 - https://api.rubyonrails.org/classes/ActionDispatch/Flash.html
+
+- Reset the database:
+
+```bash
+rails db:migrate:reset
+```
+
+- https://api.rubyonrails.org/classes/ActiveSupport/Testing/Assertions.html#method-i-assert_difference
+- https://api.rubyonrails.org/classes/ActionView/Helpers/TagHelper.html#method-i-content_tag
