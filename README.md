@@ -689,3 +689,4 @@ rails generate integration_test users_signup
 ```
 
 - https://api.rubyonrails.org/classes/ActionController/Redirecting.html#method-i-redirect_to
+- https://api.rubyonrails.org/classes/ActionDispatch/Flash.html
