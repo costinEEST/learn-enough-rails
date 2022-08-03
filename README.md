@@ -699,3 +699,25 @@ rails db:migrate:reset
 
 - https://api.rubyonrails.org/classes/ActiveSupport/Testing/Assertions.html#method-i-assert_difference
 - https://api.rubyonrails.org/classes/ActionView/Helpers/TagHelper.html#method-i-content_tag
+- [SSL (Secure Sockets Layer) is now TLS (Transport Layer Security)](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+- https://www.learnenough.com/custom-domains
+- https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server
+- https://devcenter.heroku.com/articles/getting-started-with-rails6
+
+- Production deployment:
+```bash
+rails test
+git add -A
+git commit -m "Use SSL and the Puma web server in production"
+git push && git push heroku
+heroku run rails db:migrate
+```
+
+- How to rerset the production database:
+
+```bash
+heroku pg:reset DATABASE
+heroku run rails db:migrate
+```
+
+
