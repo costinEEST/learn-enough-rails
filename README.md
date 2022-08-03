@@ -713,11 +713,13 @@ git push && git push heroku
 heroku run rails db:migrate
 ```
 
-- How to rerset the production database:
+- How to reset the production database:
 
 ```bash
 heroku pg:reset DATABASE
 heroku run rails db:migrate
 ```
+
+- [URL for the production version of chapter 7 (sign up)](https://safe-spire-86804.herokuapp.com)
 
 
