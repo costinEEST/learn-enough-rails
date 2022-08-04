@@ -728,5 +728,28 @@ heroku run rails db:migrate
 rails generate controller Sessions new
 ```
 
+```bash
+rails routes -c users
+   Prefix Verb   URI Pattern               Controller#Action
+   signup GET    /signup(.:format)         users#new
+    users GET    /users(.:format)          users#index
+          POST   /users(.:format)          users#create
+ new_user GET    /users/new(.:format)      users#new
+edit_user GET    /users/:id/edit(.:format) users#edit
+     user GET    /users/:id(.:format)      users#show
+          PATCH  /users/:id(.:format)      users#update
+          PUT    /users/:id(.:format)      users#update
+          DELETE /users/:id(.:format)      users#destroy
+```
+
+```bash
+rails routes -c sessions
+      Prefix Verb   URI Pattern             Controller#Action
+sessions_new GET    /sessions/new(.:format) sessions#new
+       login GET    /login(.:format)        sessions#new
+             POST   /login(.:format)        sessions#create
+      logout DELETE /logout(.:format)       sessions#destroy
+```
+
 
 
