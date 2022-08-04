@@ -722,4 +722,11 @@ heroku run rails db:migrate
 
 - [URL for the production version of chapter 7 (sign up)](https://safe-spire-86804.herokuapp.com)
 
+- Generate the Sessions controller:
+
+```bash
+rails generate controller Sessions new
+```
+
+
 
