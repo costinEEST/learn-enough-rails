@@ -751,5 +751,13 @@ sessions_new GET    /sessions/new(.:format) sessions#new
       logout DELETE /logout(.:format)       sessions#destroy
 ```
 
+```bash
+curl -I http://127.0.0.1:3000 | grep Set-Cookie
+```
+
+- https://guides.rubyonrails.org/security.html#session-storage
+- https://guides.rubyonrails.org/security.html#replay-attacks-for-cookiestore-sessions
+- https://guides.rubyonrails.org/action_controller_overview.html#session
+- https://github.com/rails/activerecord-session_store
 
 
