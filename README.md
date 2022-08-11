@@ -765,3 +765,5 @@ curl -I http://127.0.0.1:3000 | grep Set-Cookie
 rails generate integration_test users_login
 ```
 
+- [Session replay attack](https://guides.rubyonrails.org/security.html#session-hijacking)
+- https://guides.rubyonrails.org/security.html#session-fixation
