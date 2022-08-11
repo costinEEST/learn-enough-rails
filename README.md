@@ -761,4 +761,7 @@ curl -I http://127.0.0.1:3000 | grep Set-Cookie
 - https://github.com/rails/activerecord-session_store
 - https://api.rubyonrails.org/classes/ActiveRecord/FinderMethods.html#method-i-find_by
 
+```bash
+rails generate integration_test users_login
+```
 
